@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "module": "esnext",
+    "target": "es5",
+    "baseUrl": "src",
+    "moduleResolution": "node",
+    "importHelpers": true,
+    "outDir": "dist",
+    "lib": [
+        "es6",
+        "dom"
+    ],
+  },
+  "include": ["**/*.ts"],
+  "exclude": ["node_modules"]
+}
